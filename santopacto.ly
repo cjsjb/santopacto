@@ -3,31 +3,31 @@
 % point and click debugging is disabled
 #(ly:set-option 'point-and-click #f)
 \header {
-    title = "Santo pacto"
-    tagline = "Created using Rosegarden 1.5.1 and LilyPond"
+	title = "Santo pacto"
+	tagline = "Created using Rosegarden 1.5.1 and LilyPond"
 }
 #(set-global-staff-size 20)
 #(set-default-paper-size "letter")
-global = { 
-    \time 4/4
-    \skip 1*10  %% 1-10
-    \break
-    % \time 2/4
-    \skip 2*43  %% 11-53
+global = {
+	\time 4/4
+	\skip 1*10  %% 1-10
+	\break
+	% \time 2/4
+	\skip 2*43  %% 11-53
 }
 globalTempo = {
-    \tempo 4 = 68  \skip 1*31 \skip 2 
+	\tempo 4 = 68  \skip 1*31 \skip 2
 }
 \score {
-    <<
-        % force offset of colliding notes in chords:
-        \override Score.NoteColumn #'force-hshift = #1.0
+	<<
+	% force offset of colliding notes in chords:
+	\override Score.NoteColumn #'force-hshift = #1.0
 
 	\include "santopacto-acordes.inc"
 	\include "santopacto-violin.inc"
 	\include "santopacto-bajo.inc"
 
-    >> % notes
+	>> % notes
 
-    \layout { }
+	\layout { }
 } % score
