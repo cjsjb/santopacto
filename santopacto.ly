@@ -30,7 +30,10 @@ globalTempo = {
 		\override Score.NoteColumn #'force-hshift = #1.0
 
 		\include "santopacto-acordes.inc"
-		\include "santopacto-flauta.inc"
+		\new StaffGroup <<
+			\include "santopacto-soprano.inc"
+		>>
+		%\include "santopacto-flauta.inc"
 	>>
 
 	\layout { }
