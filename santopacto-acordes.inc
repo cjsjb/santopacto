@@ -1,5 +1,6 @@
 \context ChordNames
 	\chords {
+		\set chordChanges = ##t
 		% intro
 		a1 a1
 
@@ -11,11 +12,12 @@
 		fis2:m b2:m e2 a2 \break
 		fis2:m b2:m e2 a2 \break
 		fis2:m b2:m e2 a2 \break
-		fis2:m b2:m e2 d2 d2 e2 e2 \break
+		fis2:m b2:m e2 d2 d2 e2 e2
 
 		% coro
 		fis2:m b2:m e2 a2 \break
 		fis2:m b2:m e2 a2 \break
 		fis2:m b2:m e2 a2 \break
-		fis2:m b2:m e2 d2 d2 a2 a2 \break
+		fis2:m b2:m e2 d2 d2 a2 a2
+		a2
 	}
