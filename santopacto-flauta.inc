@@ -13,7 +13,12 @@
 		\clef "treble"
 		\key a \major
 
-		R1*5  |
+		R1  |
+		r2 a' 4 b'  |
+		cis'' 2. b' 4  |
+		a' 1  |
+%% 5
+		R1  |
 		r4 cis'' b' a'  |
 		b' 2. a' 4  |
 		gis' 2. a' 4  |
@@ -56,21 +61,21 @@
 		d'' 8 cis'' 4 b' cis'' 8 b' 4  |
 %% 40
 		a' 1  |
-		R1  |
+		fis' 1  |
 		gis' 1  |
 		a' 2 b'  |
 		a' 1  |
 %% 45
-		R1  |
+		b' 1  |
 		e'' 2. d'' 4  |
 		cis'' 2 b'  |
 		a' 1  |
-		R1  |
+		fis' 1  |
 %% 50
 		gis' 1  |
 		a' 2 b'  |
-		a' 1  |
-		R1  |
+		cis'' 1  |
+		d'' 1  |
 		e'' 1  |
 %% 55
 		d'' 1 ~  |
