@@ -18,6 +18,6 @@
 		fis1:m b1:m e1 a1
 		fis1:m b1:m e1 a1
 		fis1:m b1:m e1 a1
-		fis1:m b1:m e1 d1 d1 e1 e1
-		a1
+		fis1:m b1:m e1 d1 d1
+		a1 a1 a1
 	}
