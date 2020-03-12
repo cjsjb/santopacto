@@ -13,69 +13,73 @@
 		\clef "treble"
 		\key a \major
 
-		R1*2  |
-		cis' 2 e' 4. r8  |
-		fis' 4. ( e' 8 ) e' 4. r8  |
+		R1*4  |
 %% 5
-		a 4. a 8 a' 4. b' 8  |
-		gis' 16 ( fis' 8 ) e' 4. r16 r8 e' 16 e' e' e' ~  |
-		e' 8 d' 4 cis' 16 b 8 b 8. r8 e'  |
-		cis'' 4. b' 16 b' 8 a' 4. r16  |
-		gis' 8 a' 4 r8 a' a' 16 b' 8. cis'' 8  |
+		cis' 1  |
+		e' 2. r4  |
+		fis' 2. ( e' 4 )  |
+		e' 2. r4  |
+		a 2. a 4  |
 %% 10
-		cis'' 16 ( b' 8. ~ b' 2 ) r8 r16 gis' ~  |
-		\time 2/4
-		gis' 16 a' 8. r8 a' 16 a' ~  |
-		a' 16 d' 4 r16 r8  |
-		gis' 8 gis' 16 a' 8 b' cis'' 16 ~  |
-		cis'' 8 b' 16 a' 8. a' 16 gis' ~  |
+		a' 2. b' 4  |
+		gis' 8 ( fis' 4 ) e' 2 ~ e' 8 ~  |
+		e' 8 r r4 e' 8 e' e' e' ~  |
+		e' 4 d' 2 cis' 8 b ~  |
+		b 8 b 4. r4 e'  |
 %% 15
-		gis' 16 a' 8. r16 a' a' a' ~  |
-		a' 16 d' 4 r16 r a'  |
-		gis' 8 gis' 16 a' 8 b' cis'' 16 ( ~
-		% warning: overlong bar truncated here |
-		cis'' 8 b' 16 a' 8. ) a' 16 gis' ~  |
-		gis' 16 a' 8. r8 a' 16 a' ~  |
+		cis'' 2. b' 8 b' ~  |
+		b' 8 a' 2. r8  |
+		gis' 4 a' 2 r4  |
+		a' 4 a' 8 b' 4. cis'' 4  |
+		cis'' 8 ( b' 4. ~ b' 2 ~  |
 %% 20
-		a' 16 d' 4 r16 r a'  |
-		gis' 8 gis' 16 a' 8 b' cis'' 16 ( ~
-		% warning: overlong bar truncated here |
-		cis'' 8 b' 16 ) a' 8. a' 16 gis' ~  |
-		gis' 16 a' 8. r16 a' a' a' ~  |
-		a' 16 d' 4 r16 r a'  |
+		b' 2 ) r4 r8 gis' ~  |
+		gis' 8 a' 4. r4 a' 8 a' ~  |
+		a' 8 d' 2 r8 r4  |
+		gis' 4 gis' 8 a' 4 b' cis'' 8 ~  |
+		cis'' 4 b' 8 a' 4. a' 8 gis' ~  |
 %% 25
-		gis' 8 gis' 16 a' 8 b' 8.  |
-		a' 2  |
-		r8 r16 b' 8. cis'' 8  |
-		cis'' 16 ( b' ~ b' 4. ~
-		% warning: overlong bar truncated here |
-		b' 4 ) r8 r16 gis' ~  |
+		gis' 8 a' 4. r8 a' a' a' ~  |
+		a' 8 d' 2 r8 r a'  |
+		gis' 4 gis' 8 a' 4 b' cis'' 8 ( ~  |
+		cis'' 4 b' 8 a' 4. ) a' 8 gis' ~  |
+		gis' 8 a' 4. r4 a' 8 a' ~  |
 %% 30
-		gis' 16 a' 8. r8 a' 16 a' ~  |
-		a' 16 d' 4 r16 r8  |
-		gis' 8 gis' 16 a' 8 b' cis'' 16 ~  |
-		cis'' 8 b' 16 a' 8. a' 16 gis' ~  |
-		gis' 16 a' 8. r16 a' a' a' ~  |
+		a' 8 d' 2 r8 r a'  |
+		gis' 4 gis' 8 a' 4 b' cis'' 8 ( ~  |
+		cis'' 4 b' 8 ) a' 4. a' 8 gis' ~  |
+		gis' 8 a' 4. r8 a' a' a' ~  |
+		a' 8 d' 2 r8 r a'  |
 %% 35
-		a' 16 d' 4 r16 r a'  |
-		gis' 8 gis' 16 a' 8 b' cis'' 16 ( ~
-		% warning: overlong bar truncated here |
-		cis'' 8 b' 16 a' 8. ) a' 16 gis' ~  |
-		gis' 16 a' 8. r16 r a' a' ~  |
-		a' 16 d' 4 r16 r a'  |
+		gis' 4 gis' 8 a' 4 b' 4.  |
+		a' 1  |
+		r4 r8 b' 4. cis'' 4  |
+		cis'' 8 ( b' ~ b' 2. ~  |
+		b' 2 ) r4 r8 gis' ~  |
 %% 40
-		gis' 8 gis' 16 a' 8 b' cis'' 16 ( ~
-		% warning: overlong bar truncated here |
-		cis'' 8 b' 16 ) a' 8. a' 16 gis' ~  |
-		gis' 16 a' 8. r16 a' a' a' ~  |
-		a' 16 d' 4 r16 r a'  |
-		gis' 8 gis' 16 a' 8 b' 8.  |
+		gis' 8 a' 4. r4 a' 8 a' ~  |
+		a' 8 d' 2 r8 r4  |
+		gis' 4 gis' 8 a' 4 b' cis'' 8 ~  |
+		cis'' 4 b' 8 a' 4. a' 8 gis' ~  |
+		gis' 8 a' 4. r8 a' a' a' ~  |
 %% 45
-		a' 4 r8 r16 d'  |
-		d'' 8 cis'' 16 a' 8 b' 8.  |
-		a' 2 ~  |
-		a' 2  |
-		R2  |
+		a' 8 d' 2 r8 r a'  |
+		gis' 4 gis' 8 a' 4 b' cis'' 8 ( ~  |
+		cis'' 4 b' 8 a' 4. ) a' 8 gis' ~  |
+		gis' 8 a' 4. r4 a' 8 a' ~  |
+		a' 8 d' 2 r8 r a'  |
+%% 50
+		gis' 4 gis' 8 a' 4 b' cis'' 8 ( ~  |
+		cis'' 4 b' 8 ) a' 4. a' 8 gis' ~  |
+		gis' 8 a' 4. r8 a' a' a' ~  |
+		a' 8 d' 2 r8 r a'  |
+		gis' 4 gis' 8 a' 4 b' 4.  |
+%% 55
+		a' 2 r4 r8 d'  |
+		d'' 4 cis'' 8 a' 4 b' 4.  |
+		a' 1 ~  |
+		a' 1  |
+		R1*2  |
 		\bar "|."
 	}
 
