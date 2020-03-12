@@ -1,78 +1,88 @@
-\context Staff = "violín" <<
+\context Staff = "track 8, Violín" <<
 	\set Staff.instrumentName = "Violín"
+	\set Staff.shortInstrumentName = "V."
 	\set Score.skipBars = ##t
 	\set Staff.printKeyCancellation = ##f
 	\new Voice \global
 	\new Voice \globalTempo
 
-	\context Voice = "voice 2" {
+	\context Voice = "voice 4" {
 		\override Voice.TextScript #'padding = #2.0
 		\override MultiMeasureRest #'expand-limit = 1
 
 		\clef "treble"
 		\key a \major
-		r2 r4 a' 8 b'  |
-		cis'' 4. b' 8 a' 2 ~  |
-		a' 2 r8 cis'' b' a'  |
-		b' 4. a' 8 gis' 4. a' 8  |
+
+		R1  |
+		r2 a' 4 b'  |
+		cis'' 2. b' 4  |
+		a' 1  |
 %% 5
-		fis' 2 ~ fis' 4. a' 8  |
-		gis' 2 ~ gis' 4. e' 8  |
-		fis' 4. e' 8 gis' 4. e' 8  |
-		a' 4 b' cis'' 2  |
-		d'' 1  |
+		R1  |
+		r4 cis'' b' a'  |
+		b' 2. a' 4  |
+		gis' 2. a' 4  |
+		fis' 1 ~  |
 %% 10
-		r8 e'' d'' cis'' d'' 16 cis'' 8 b' cis'' 16 b' 8  |
-		\time 2/4
-		gis' 8 a' 4.  |
-		b' 2  |
-		e'' 4. d'' 8  |
-		cis'' 4 d'' 8 e''  |
+		fis' 2. a' 4  |
+		gis' 1 ~  |
+		gis' 2. e' 4  |
+		fis' 2. e' 4  |
+		gis' 2. e' 4  |
 %% 15
-		fis'' 2 ~  |
-		fis'' 2  |
-		e'' 4. d'' 8  |
-		cis'' 4 b'  |
-		a' 2  |
+		a' 2 b'  |
+		cis'' 1  |
+		d'' 1 ~  |
+		d'' 1  |
+		r4 e'' d'' cis''  |
 %% 20
-		b' 2  |
-		gis' 2  |
-		a' 4 b'  |
-		cis'' 2  |
-		d'' 2  |
+		d'' 8 cis'' 4 b' cis'' 8 b' 4  |
+		a' 1  |
+		R1  |
+		gis' 1  |
+		a' 2 b'  |
 %% 25
-		e'' 2  |
-		d'' 2 ~  |
-		d'' 2  |
-		r8 e'' d'' cis''  |
-		d'' 16 cis'' 8 b' cis'' 16 b' 8  |
+		a' 1  |
+		R1  |
+		e'' 2. d'' 4  |
+		cis'' 2 b'  |
+		a' 1  |
 %% 30
-		gis' 8 a' 4.  |
-		b' 2  |
-		e'' 4. d'' 8  |
-		cis'' 4 d'' 8 e''  |
-		fis'' 2 ~  |
+		R1  |
+		gis' 1  |
+		a' 2 b'  |
+		a' 1  |
+		R1  |
 %% 35
-		fis'' 2  |
-		e'' 4. d'' 8  |
-		cis'' 4 b'  |
-		a' 2  |
-		b' 2  |
+		e'' 1  |
+		d'' 1 ~  |
+		d'' 1  |
+		r4 e'' d'' cis''  |
+		d'' 8 cis'' 4 b' cis'' 8 b' 4  |
 %% 40
-		gis' 2  |
-		a' 4 b'  |
-		cis'' 2  |
-		d'' 2  |
-		e'' 2  |
+		a' 1  |
+		fis' 1  |
+		gis' 1  |
+		a' 2 b'  |
+		a' 1  |
 %% 45
-		d'' 2 ~  |
-		d'' 2  |
-		cis'' 2 ~  |
-		cis'' 4. b' 8  |
-		a' 2 ~  |
+		b' 1  |
+		e'' 2. d'' 4  |
+		cis'' 2 b'  |
+		a' 1  |
+		fis' 1  |
 %% 50
-		a' 2  |
-		R2*3  |
+		gis' 1  |
+		a' 2 b'  |
+		cis'' 1  |
+		d'' 1  |
+		e'' 1  |
+%% 55
+		d'' 1 ~  |
+		d'' 1  |
+		cis'' 1 ~  |
+		cis'' 1  |
+		R1*2  |
 		\bar "|."
-	} % Voice
->> % Staff
+	}
+>>

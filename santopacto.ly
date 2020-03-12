@@ -29,7 +29,7 @@ globalTempo = {
 		\new StaffGroup <<
 			\include "santopacto-soprano.inc"
 		>>
-		%\include "santopacto-flauta.inc"
+		\include "santopacto-violin.inc"
 	>>
 
 	\layout { }
