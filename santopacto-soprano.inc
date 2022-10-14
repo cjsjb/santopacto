@@ -83,7 +83,7 @@
 		\bar "|."
 	}
 
-	\lyricsto "voz-soprano" \new Lyrics \lyricmode {
+	\new Lyrics \lyricsto "voz-soprano" {
 		San -- to, san __ to,
 		Dios om -- ni -- po -- ten __ te,
 		to -- da la Tie -- rra pro -- cla -- ma
